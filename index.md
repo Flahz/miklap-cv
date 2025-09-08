@@ -22,35 +22,14 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 
 **Développeur logiciel** – *Pro Meubles Inc., Granby*  
 *05/2024 – Présent*  
-- Développement d’une application en **C# (ASP.NET MVC)** pour automatiser l’analyse de fichiers manufacturiers.  
-- Validation des fichiers et détection d’anomalies avec alertes ciblées aux dessinateurs.  
-- Amélioration de la maintenabilité (architecture modulaire, tests unitaires, documentation).  
+- Développement d’un programme complet en C# basé sur l’architecture MVC, orienté objet, visant à automatiser l’analyse de fichiers utilisés dans le domaine manufacturier.
+- Conception d’un outil intuitif permettant à des utilisateurs sans expertise en construction de facilement intégrer le programme dans leur processus de production.
+- Mise en place d’une couche dédiée à la détection automatique d’erreurs dans les fichiers des machines de production, avec envoi d’alertes ciblées aux dessinateurs pour correction.
+- Utilisation de la couche Controller pour orchestrer les interactions entre l’analyse des données et l’interface utilisateur, contribuant ainsi à l’accélération de la chaîne de production en éliminant les vérifications manuelles.
 
 ---
 
 ## Projets sélectionnés
-
-### Pipeline temps réel – Données de transport
-- Conception d’un pipeline distribué avec **Apache Flink** pour traiter en temps réel des données GTFS-RT.  
-- Conversion des fichiers protobuf en JSON, extraction de la localisation des bus et stockage dans **Redis**.  
-- Détection des véhicules immobiles avec alertes diffusées en temps réel via **MQTT**.  
-- Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
-- Intégration avec une interface web interactive pour la visualisation cartographique.  
-- Déploiement complet **conteneurisé avec Docker**.  
-
-### Microservices & DevOps - En cours
-- Déploiement de **microservices sur Kubernetes** avec API Gateway.  
-- Implémentation de **patterns distribués** : Saga (orchestration & chorégraphie), CQRS, Event Sourcing, Pub/Sub.  
-- Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
-- Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.  
-- Application des bonnes pratiques DevOps : CI/CD avec GitHub Actions, logs centralisés, monitoring temps réel.  
-
-### IA – Tic-Tac-Toe géant
-- Développement d’un joueur artificiel compétitif pour une version avancée du jeu (9 plateaux locaux imbriqués dans un global 3x3).  
-- Conception d’un moteur de jeu gérant routage des coups, plateaux fermés et priorités de déplacement.  
-- Implémentation de **Minimax** avec élagage **alpha-bêta**, respectant la contrainte temps (<3s/coup).  
-- Développement de fonctions heuristiques pour évaluer les plateaux locaux et globaux.  
-- Résultat : un agent IA capable de stratégies compétitives et d’optimiser la profondeur de recherche.  
 
 ### Projets académiques (Architecture logicielle & Systèmes distribués) - En cours
 - Mise en place d’infrastructures avec **Docker, Git et CI/CD**.  
@@ -59,6 +38,32 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Création et consommation d’APIs **REST et GraphQL**.  
 - Expérimentation de la **résilience système** : Chaos Engineering, tolérance aux pannes.  
 - Tests de charge avancés et optimisation des performances dans des environnements distribués.  
+
+### Pipeline temps réel – Données de transport
+- Conception d’un pipeline distribué avec **Apache Flink** pour traiter en temps réel des données GTFS-RT.  
+- Conversion des fichiers protobuf en JSON, extraction de la localisation des bus et stockage dans **Redis**.  
+- Détection des véhicules immobiles avec alertes diffusées en temps réel via **MQTT**.  
+- Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
+- Déploiement complet **conteneurisé avec Docker**.  
+
+### Microservices & DevOps
+- Déploiement de **microservices sur Kubernetes** avec API Gateway.  
+- Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
+- Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
+- Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.  
+
+### IA – Tic-Tac-Toe géant
+- Développement d’un joueur artificiel compétitif pour une version avancée du jeu (9 plateaux locaux imbriqués dans un global 3x3).  
+- Implémentation de **Minimax** avec élagage **alpha-bêta**, respectant la contrainte temps (<3s/coup).  
+- Développement de fonctions heuristiques pour évaluer les plateaux locaux et globaux.  
+
+### Projet de développement d’un système de gestion de l’apprentissage (SGA)
+- Conception d’une application web en couches (**présentation et domaine**) avec séparation stricte de la logique métier et de l’interface.  
+- Intégration avec un système externe (**SGB simulant une API REST**) pour récupérer et enregistrer des données (cours, enseignants, évaluations).  
+- Implémentation d’une **API REST conforme aux principes REST** : routes nommées, gestion des erreurs, extraction des paramètres, contrôleurs encapsulant la logique métier.  
+- Réalisation de **tests automatisés** pour les cas d’utilisation principaux, scénarios alternatifs et erreurs, avec nommage standardisé (CUxx-t1, etc.).  
+- Utilisation de **GitHub** pour le versionnement, la gestion des issues et la remise via des tags structurés (plan1, rdcu1, rapport1, etc.).  
+- Développement back-end en **Node.js**.  
 
 ---
 
@@ -72,3 +77,4 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 ## Langues
 
 Français — bilingue | Anglais — bilingue  
+

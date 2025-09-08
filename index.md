@@ -46,6 +46,9 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
 - Déploiement complet **conteneurisé avec Docker**.  
 
+
+
+
 ### Microservices & DevOps - En cours
 - Déploiement de **microservices sur Kubernetes** avec API Gateway.  
 - Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  

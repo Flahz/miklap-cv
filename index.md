@@ -22,10 +22,10 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 
 **Développeur logiciel** – *Pro Meubles Inc., Granby*  
 *05/2024 – Présent*  
-- Développement d’un programme complet en C# basé sur l’architecture MVC, orienté objet, visant à automatiser l’analyse de fichiers utilisés dans le domaine manufacturier.
-- Conception d’un outil intuitif permettant à des utilisateurs sans expertise en construction de facilement intégrer le programme dans leur processus de production.
-- Mise en place d’une couche dédiée à la détection automatique d’erreurs dans les fichiers des machines de production, avec envoi d’alertes ciblées aux dessinateurs pour correction.
-- Utilisation de la couche Controller pour orchestrer les interactions entre l’analyse des données et l’interface utilisateur, contribuant ainsi à l’accélération de la chaîne de production en éliminant les vérifications manuelles.
+- Développement d’un programme complet en C# basé sur l’architecture MVC, orienté objet, visant à automatiser l’analyse de fichiers utilisés dans le domaine manufacturier.  
+- Conception d’un outil intuitif permettant à des utilisateurs sans expertise en construction de facilement intégrer le programme dans leur processus de production.  
+- Mise en place d’une couche dédiée à la détection automatique d’erreurs dans les fichiers des machines de production, avec envoi d’alertes ciblées aux dessinateurs pour correction.  
+- Utilisation de la couche Controller pour orchestrer les interactions entre l’analyse des données et l’interface utilisateur, contribuant ainsi à l’accélération de la chaîne de production en éliminant les vérifications manuelles.  
 
 ---
 
@@ -46,7 +46,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
 - Déploiement complet **conteneurisé avec Docker**.  
 
-### Microservices & DevOps
+### Microservices & DevOps - En cours
 - Déploiement de **microservices sur Kubernetes** avec API Gateway.  
 - Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
 - Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
@@ -65,6 +65,12 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Utilisation de **GitHub** pour le versionnement, la gestion des issues et la remise via des tags structurés (plan1, rdcu1, rapport1, etc.).  
 - Développement back-end en **Node.js**.  
 
+### Projet de développement d’un système intelligent avec le robot Cozmo - En cours
+- Conception progressive d’un système intelligent à travers trois laboratoires visant à explorer les fondements de l’intelligence artificielle appliquée à un robot physique.  
+- Implémentation manuelle d’algorithmes fondamentaux, puis comparaison avec des **librairies modernes en Python** pour comprendre les concepts de base de l’IA.  
+- Intégration de composantes intelligentes permettant à **Cozmo** d’interagir, percevoir, raisonner et communiquer avec son environnement.  
+- Exploration de modules variés : **reconnaissance faciale, navigation autonome, communication gestuelle et verbale, raisonnement par inférence, compréhension de langage simplifié**.  
+
 ---
 
 ## Formation
@@ -77,4 +83,3 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 ## Langues
 
 Français — bilingue | Anglais — bilingue  
-

@@ -63,17 +63,10 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Déploiement complet **conteneurisé avec Docker**.  
 
 ### IA – Tic-Tac-Toe géant
-- Développement d’un joueur artificiel compétitif pour une version avancée du jeu (9 plateaux locaux imbriqués dans un global 3x3).  
-- Implémentation de **Minimax** avec élagage **alpha-bêta**, respectant la contrainte temps (<3s/coup).  
-- Développement de fonctions heuristiques pour évaluer les plateaux locaux et globaux.  
-
-### Projet de développement d’un système de gestion de l’apprentissage (SGA)
-- Conception d’une application web en couches (**présentation et domaine**) avec séparation stricte de la logique métier et de l’interface.  
-- Intégration avec un système externe (**SGB simulant une API REST**) pour récupérer et enregistrer des données (cours, enseignants, évaluations).  
-- Implémentation d’une **API REST conforme aux principes REST** : routes nommées, gestion des erreurs, extraction des paramètres, contrôleurs encapsulant la logique métier.  
-- Réalisation de **tests automatisés** pour les cas d’utilisation principaux, scénarios alternatifs et erreurs, avec nommage standardisé (CUxx-t1, etc.).  
-- Utilisation de **GitHub** pour le versionnement, la gestion des issues et la remise via des tags structurés (plan1, rdcu1, rapport1, etc.).  
-- Développement back-end en **Node.js**.  
+- Développement d’un joueur artificiel compétitif pour une version avancée du jeu de Tic-Tac-Toe, composée de 9 plateaux locaux imbriqués dans un plateau global 3x3. 
+- Conception d’un moteur de jeu capable de respecter les règles complexes du plateau géant, incluant le routage des coups, la détection des plateaux fermés, et la gestion des priorités de déplacement.
+- Implémentation de l’algorithme Minimax et optimisation avec l’élagage alpha-bêta pour explorer efficacement l’arbre de décision sous contrainte de temps (≤ 3 secondes par coup).
+- Développement de fonctions d’évaluation heuristiques pour évaluer les plateaux locaux et globaux, et guider l’IA dans ses choix stratégiques.
 
 ### Projet de développement d’un système intelligent avec le robot Cozmo - En cours
 - Conception progressive d’un système intelligent à travers trois laboratoires visant à explorer les fondements de l’intelligence artificielle appliquée à un robot physique.  

@@ -7,6 +7,18 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 
 ---
 
+## Formation
+
+**Baccalauréat en génie logiciel** – ÉTS, Montréal  
+*2023 – présent*  
+
+---
+
+## Langues
+
+Français — bilingue | Anglais — bilingue  
+
+---
 ## Compétences
 
 - **Langages :** Java, C#, JavaScript/TypeScript, Python, C/C++  
@@ -77,15 +89,4 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 
 
 
----
 
-## Formation
-
-**Baccalauréat en génie logiciel** – ÉTS, Montréal  
-*2023 – présent*  
-
----
-
-## Langues
-
-Français — bilingue | Anglais — bilingue  

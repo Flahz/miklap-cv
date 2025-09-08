@@ -3,7 +3,7 @@ title: ""
 ---
 
 Laval, QC  
-mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/miklap) | [LinkedIn](https://linkedin.com/in/mikael-lapierre)
+mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/Flahz) | [LinkedIn](https://www.linkedin.com/in/mikael-lapierre-2883a1383/)
 
 ---
 

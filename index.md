@@ -39,21 +39,28 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Expérimentation de la **résilience système** : Chaos Engineering, tolérance aux pannes.  
 - Tests de charge avancés et optimisation des performances dans des environnements distribués.  
 
+### Application web – Réseau cyclable de Montréal
+**Tech utilisées :** Node.js & Express (**API RESTful**), MongoDB (requêtes filtrées/paginées), HTML/CSS/JavaScript (front), Leaflet/Mapbox (carto), Chart.js (graphiques), GitHub (issues/tags/CI).  
+- Conception et implémentation d’une **API RESTful** respectant les bonnes pratiques (routes nommées, statuts HTTP, gestion d’erreurs).  
+- **Migration des données CSV/GeoJSON** (compteurs, fontaines, pistes, territoires) vers **MongoDB**, avec filtres dynamiques (nom, type, arrondissement, date) exécutés côté base de données.  
+- Mise en place de la **pagination**, recherche textuelle et filtres combinés pour optimiser les réponses de l’API.  
+- Exposition de points d’intérêt et compteurs avec statistiques de fréquentation via l’API.  
+- Authentification (inscription/connexion) et **sécurisation avec JWT** pour les actions CRUD (ajout, modification, suppression).  
+- Déploiement de la frontale connectée à l’API pour afficher **cartes interactives, statistiques et filtres en temps réel**.  
+- Collaboration en équipe avec **GitHub** (issues, branches, commits structurés, tags de livraison).  
+
+### Microservices & DevOps - En cours
+- Déploiement de **microservices sur Kubernetes** avec API Gateway.  
+- Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
+- Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
+- Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.
+
 ### Pipeline temps réel – Données de transport
 - Conception d’un pipeline distribué avec **Apache Flink** pour traiter en temps réel des données GTFS-RT.  
 - Conversion des fichiers protobuf en JSON, extraction de la localisation des bus et stockage dans **Redis**.  
 - Détection des véhicules immobiles avec alertes diffusées en temps réel via **MQTT**.  
 - Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
 - Déploiement complet **conteneurisé avec Docker**.  
-
-
-
-
-### Microservices & DevOps - En cours
-- Déploiement de **microservices sur Kubernetes** avec API Gateway.  
-- Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
-- Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
-- Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.  
 
 ### IA – Tic-Tac-Toe géant
 - Développement d’un joueur artificiel compétitif pour une version avancée du jeu (9 plateaux locaux imbriqués dans un global 3x3).  
@@ -73,6 +80,9 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/mi
 - Implémentation manuelle d’algorithmes fondamentaux, puis comparaison avec des **librairies modernes en Python** pour comprendre les concepts de base de l’IA.  
 - Intégration de composantes intelligentes permettant à **Cozmo** d’interagir, percevoir, raisonner et communiquer avec son environnement.  
 - Exploration de modules variés : **reconnaissance faciale, navigation autonome, communication gestuelle et verbale, raisonnement par inférence, compréhension de langage simplifié**.  
+
+
+
 
 ---
 

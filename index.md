@@ -3,7 +3,7 @@ title: ""
 ---
 
 Laval, QC  
-mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/Flahz) | [LinkedIn](https://www.linkedin.com/in/mikael-lapierre-2883a1383/)
+mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  |
 
 ---
 
@@ -12,11 +12,14 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | [GitHub](https://github.com/Fl
 **Baccalauréat en génie logiciel** – ÉTS, Montréal  
 *2023 – présent*  
 
+**Membre de l'équipe eSports de l'ÉTS**  
+*Participation active aux compétitions et événements eSports de l'école*
+
 ---
 
 ## Langues
 
-Français — bilingue | Anglais — bilingue  
+Français — maitrsé | Anglais — maitrsé  
 
 ---
 ## Compétences

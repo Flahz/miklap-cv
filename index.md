@@ -3,7 +3,7 @@ title: ""
 ---
 
 Laval, QC  
-mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  |
+mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 ---
 
@@ -12,24 +12,27 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  |
 **Baccalauréat en génie logiciel** – ÉTS, Montréal  
 *2023 – présent*  
 
+**Diplôme d'études collégiales en sciences de la nature** – Collège Montmorency  
+*2020 – 2023*  
+
+---
+
+## Participation académique
+
 **Membre de l'équipe eSports de l'ÉTS**  
 *Participation active aux compétitions et événements eSports de l'école*
 
 ---
 
-## Langues
-
-Français — maitrsé | Anglais — maitrsé  
-
----
 ## Compétences
 
 - **Langages :** Java, C#, JavaScript/TypeScript, Python, C/C++  
 - **Back-end :** .NET (ASP.NET Core, MVC), Node.js, Express.js, REST, GraphQL, DDD  
-- **Bases de données :** SQL (conception & optimisation), MongoDB  
+- **Bases de données :** SQL (conception & optimisation), MongoDB, PostreSQL  
 - **DevOps :** Docker, Kubernetes, CI/CD (GitHub Actions)  
 - **Architecture distribuée :** microservices, API Gateway, Saga, CQRS, Event Sourcing, Pub/Sub, résilience (Circuit Breaker, observabilité)  
-- **Tests :** unitaires, intégration  
+- **Tests :** unitaires, intégration, acceptation, E2E  
+- **Outils IA :** GitHub Copilot, ChatGPT, Claude
 
 ---
 
@@ -54,7 +57,7 @@ Français — maitrsé | Anglais — maitrsé
 - Expérimentation de la **résilience système** : Chaos Engineering, tolérance aux pannes.  
 - Tests de charge avancés et optimisation des performances dans des environnements distribués.  
 
-### Application web – Réseau cyclable de Montréal
+### Application web – Réseau cyclable de Montréal - E2025
 **Tech utilisées :** Node.js & Express (**API RESTful**), MongoDB (requêtes filtrées/paginées), HTML/CSS/JavaScript (front), Leaflet/Mapbox (carto), Chart.js (graphiques), GitHub (issues/tags/CI).  
 - Conception et implémentation d’une **API RESTful** respectant les bonnes pratiques (routes nommées, statuts HTTP, gestion d’erreurs).  
 - **Migration des données CSV/GeoJSON** (compteurs, fontaines, pistes, territoires) vers **MongoDB**, avec filtres dynamiques (nom, type, arrondissement, date) exécutés côté base de données.  
@@ -70,14 +73,14 @@ Français — maitrsé | Anglais — maitrsé
 - Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
 - Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.
 
-### Pipeline temps réel – Données de transport
+### Pipeline temps réel – Données de transport - H2025
 - Conception d’un pipeline distribué avec **Apache Flink** pour traiter en temps réel des données GTFS-RT.  
 - Conversion des fichiers protobuf en JSON, extraction de la localisation des bus et stockage dans **Redis**.  
 - Détection des véhicules immobiles avec alertes diffusées en temps réel via **MQTT**.  
 - Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
 - Déploiement complet **conteneurisé avec Docker**.  
 
-### IA – Tic-Tac-Toe géant
+### IA – Tic-Tac-Toe géant - H2025
 - Développement d’un joueur artificiel compétitif pour une version avancée du jeu de Tic-Tac-Toe, composée de 9 plateaux locaux imbriqués dans un plateau global 3x3. 
 - Conception d’un moteur de jeu capable de respecter les règles complexes du plateau géant, incluant le routage des coups, la détection des plateaux fermés, et la gestion des priorités de déplacement.
 - Implémentation de l’algorithme Minimax et optimisation avec l’élagage alpha-bêta pour explorer efficacement l’arbre de décision sous contrainte de temps (≤ 3 secondes par coup).

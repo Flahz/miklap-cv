@@ -60,7 +60,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 ## Projets sélectionnés
 
-### Projets académiques (Architecture logicielle & Systèmes distribués) - En cours
+### Projets académiques (Architecture logicielle & Systèmes distribués)
 - Mise en place d’infrastructures avec **Docker, Git et CI/CD**.  
 - Développement d’applications client/serveur avec persistance **RDBMS et NoSQL**.  
 - Conception d’un monolithe avec **ORM et Domain-Driven Design (DDD)**.  
@@ -78,7 +78,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 - Déploiement de la frontale connectée à l’API pour afficher **cartes interactives, statistiques et filtres en temps réel**.  
 - Collaboration en équipe avec **GitHub** (issues, branches, commits structurés, tags de livraison).  
 
-### Microservices & DevOps - En cours
+### Microservices & DevOps
 - Déploiement de **microservices sur Kubernetes** avec API Gateway.  
 - Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
 - Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
@@ -97,7 +97,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 - Implémentation de l’algorithme Minimax et optimisation avec l’élagage alpha-bêta pour explorer efficacement l’arbre de décision sous contrainte de temps (≤ 3 secondes par coup).
 - Développement de fonctions d’évaluation heuristiques pour évaluer les plateaux locaux et globaux, et guider l’IA dans ses choix stratégiques.
 
-### Projet de développement d’un système intelligent avec le robot Cozmo - En cours
+### Projet de développement d’un système intelligent avec le robot Cozmo
 - Conception progressive d’un système intelligent à travers trois laboratoires visant à explorer les fondements de l’intelligence artificielle appliquée à un robot physique.  
 - Implémentation manuelle d’algorithmes fondamentaux, puis comparaison avec des **librairies modernes en Python** pour comprendre les concepts de base de l’IA.  
 - Intégration de composantes intelligentes permettant à **Cozmo** d’interagir, percevoir, raisonner et communiquer avec son environnement.  

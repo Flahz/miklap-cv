@@ -38,6 +38,18 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 ## Expérience professionnelle
 
+**Développeur IA** – *Loto-Québec, Montréal*  
+*01/2026 – 08/2026 (2 stages consécutifs)*  
+
+*Stage 2 – 05/2026 à 08/2026*  
+- Poursuite et approfondissement des travaux du premier stage au sein de la même équipe.  
+- Mise en production et suivi des solutions d’IA développées, avec améliorations selon les retours des utilisateurs.  
+
+*Stage 1 – 01/2026 à 04/2026*  
+- Développement de solutions d’intelligence artificielle au sein des équipes technologiques de Loto-Québec.  
+- Conception et intégration de modèles d’IA dans des applications d’entreprise.  
+- Collaboration avec les équipes de développement et les parties prenantes.  
+
 **Développeur logiciel** – *Pro Meubles Inc., Granby*  
 *05/2024 – Présent*  
 - Développement d’un programme complet en C# basé sur l’architecture MVC, orienté objet, visant à automatiser l’analyse de fichiers utilisés dans le domaine manufacturier.  

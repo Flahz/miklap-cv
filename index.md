@@ -28,7 +28,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 - **Langages :** Java, C#, JavaScript/TypeScript, Python, C/C++  
 - **Back-end :** .NET (ASP.NET Core, MVC), Node.js, Express.js, REST, GraphQL, DDD  
-- **Bases de données :** SQL (conception & optimisation), MongoDB, PostreSQL  
+- **Bases de données :** SQL (conception & optimisation), MongoDB, PostgreSQL  
 - **DevOps :** Docker, Kubernetes, CI/CD (GitHub Actions)  
 - **Architecture distribuée :** microservices, API Gateway, Saga, CQRS, Event Sourcing, Pub/Sub, résilience (Circuit Breaker, observabilité)  
 - **Tests :** unitaires, intégration, acceptation, E2E  
@@ -38,17 +38,16 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 ## Expérience professionnelle
 
-**Développeur IA** – *Loto-Québec, Montréal*  
-*01/2026 – 08/2026 (2 stages consécutifs)*  
+**Stagiaire en génie logiciel – Équipe IA (VP Numérique & IA)** – *Loto-Québec, Montréal*  
+*01/2026 – 08/2026 — 2 stages coopératifs consécutifs (STA206, STA306)*  
+- Conception et livraison d’un **pipeline de traduction automatisée EN→FR** des fiches de règles de jeux, remplaçant un processus externalisé d’environ **100 000 $/an** et libérant l’équivalent d’un poste à temps plein; couvre 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne). Déployé sur **ECS Fargate**.  
+- Entraînement et intégration d’un modèle **YOLO fine-tuné sur AWS SageMaker** pour la détection et l’extraction de logos dans des PDF complexes, avec pipeline de **ré-entraînement automatisé** déclenché par les nouvelles annotations.  
+- Développement d’un **pipeline serverless (AWS Lambda, Python 3.13)** synchronisant quotidiennement les fiches de jeux depuis **SharePoint via Microsoft Graph API** : authentification MSAL, secrets dans Secrets Manager, file de rejet SQS, infrastructure **Terraform** complète.  
+- Réalisation d’une **application full-stack de tri de candidatures** (FastAPI, PostgreSQL, React 18, TypeScript) exploitant **Claude, GPT et Gemini** avec **Instructor** pour l’extraction structurée : 300+ CV traités en moins de 5 minutes, ~**70 % de réduction** du temps de tri manuel, pertinence >85 % par rapport au jugement RH.  
+- Intégration de garde-fous d’équité dans l’outil de tri : validation humaine obligatoire, pondération transparente, aucun accès direct aux données sensibles (SIGRH).  
+- Mise en place d’un **patron CI/CD 2-dépôts réutilisable** (GitLab CI en amont, Terraform Cloud en aval) avec images Docker multi-étapes et environnements sandbox auto-détruits après 7 jours, adopté comme référence pour les initiatives IA de l’équipe.  
 
-*Stage 2 – 05/2026 à 08/2026*  
-- Poursuite et approfondissement des travaux du premier stage au sein de la même équipe.  
-- Mise en production et suivi des solutions d’IA développées, avec améliorations selon les retours des utilisateurs.  
-
-*Stage 1 – 01/2026 à 04/2026*  
-- Développement de solutions d’intelligence artificielle au sein des équipes technologiques de Loto-Québec.  
-- Conception et intégration de modèles d’IA dans des applications d’entreprise.  
-- Collaboration avec les équipes de développement et les parties prenantes.  
+*Stack : Python · AWS (Lambda, ECS/Fargate, S3, SageMaker, EventBridge, Secrets Manager) · Terraform · Docker · GitLab CI · FastAPI · React · PostgreSQL · Anthropic Claude · OpenAI · Gemini*  
 
 **Développeur logiciel** – *Pro Meubles Inc., Granby*  
 *05/2024 – Présent*  

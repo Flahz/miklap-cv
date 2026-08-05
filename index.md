@@ -40,7 +40,7 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 **Stagiaire en génie logiciel – Équipe IA (VP Numérique & IA)** – *Loto-Québec, Montréal*  
 *01/2026 – 08/2026 — 2 stages coopératifs consécutifs (STA206, STA306)*  
-- Conception et livraison d’un **pipeline de traduction automatisée EN→FR** des fiches de règles de jeux, remplaçant un processus externalisé d’environ **100 000 $/an** et libérant l’équivalent d’un poste à temps plein; couvre 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne). Déployé sur **ECS Fargate**.  
+- Conception et livraison d’un **pipeline de traduction automatisée EN→FR** des fiches de règles de jeux, remplaçant un processus externalisé; couvre 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne). Déployé sur **ECS Fargate**.  
 - Entraînement et intégration d’un modèle **YOLO fine-tuné sur AWS SageMaker** pour la détection et l’extraction de logos dans des PDF complexes, avec pipeline de **ré-entraînement automatisé** déclenché par les nouvelles annotations.  
 - Développement d’un **pipeline serverless (AWS Lambda, Python 3.13)** synchronisant quotidiennement les fiches de jeux depuis **SharePoint via Microsoft Graph API** : authentification MSAL, secrets dans Secrets Manager, file de rejet SQS, infrastructure **Terraform** complète.  
 - Réalisation d’une **application full-stack de tri de candidatures** (FastAPI, PostgreSQL, React 18, TypeScript) exploitant **Claude, GPT et Gemini** avec **Instructor** pour l’extraction structurée : 300+ CV traités en moins de 5 minutes, ~**70 % de réduction** du temps de tri manuel, pertinence >85 % par rapport au jugement RH.  

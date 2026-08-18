@@ -29,10 +29,11 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 - **Langages :** Java, C#, JavaScript/TypeScript, Python, C/C++  
 - **Back-end :** .NET (ASP.NET Core, MVC), Node.js, Express.js, REST, GraphQL, DDD  
 - **Bases de données :** SQL (conception & optimisation), MongoDB, PostgreSQL  
-- **DevOps :** Docker, Kubernetes, CI/CD (GitHub Actions)  
+- **Cloud & DevOps :** AWS (Lambda, ECS/Fargate, SageMaker), Terraform (IaC), Docker, Kubernetes, CI/CD (GitHub Actions, GitLab CI/CD), Dynatrace (observabilité)  
 - **Architecture distribuée :** microservices, API Gateway, Saga, CQRS, Event Sourcing, Pub/Sub, résilience (Circuit Breaker, observabilité)  
+- **Sécurité :** SSO (Azure AD / MSAL), sécurisation des communications API  
 - **Tests :** unitaires, intégration, acceptation, E2E  
-- **Outils IA :** GitHub Copilot, ChatGPT, Claude
+- **Outils IA :** Claude Code, Codex, GitHub Copilot, ChatGPT, Claude — context engineering, harness engineering
 
 ---
 
@@ -46,64 +47,54 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 - Réalisation d’une **application full-stack de tri de candidatures** (FastAPI, PostgreSQL, React 18, TypeScript) exploitant **Claude, GPT et Gemini** avec **Instructor** pour l’extraction structurée : 300+ CV traités en moins de 5 minutes, ~**70 % de réduction** du temps de tri manuel, pertinence >85 % par rapport au jugement RH.  
 - Intégration de garde-fous d’équité dans l’outil de tri : validation humaine obligatoire, pondération transparente, aucun accès direct aux données sensibles (SIGRH).  
 - Mise en place d’un **patron CI/CD 2-dépôts réutilisable** (GitLab CI en amont, Terraform Cloud en aval) avec images Docker multi-étapes et environnements sandbox auto-détruits après 7 jours, adopté comme référence pour les initiatives IA de l’équipe.  
+- Infrastructure déployée sur **AWS via Terraform** (IaC de bout en bout) avec **observabilité en production via Dynatrace** (monitoring, alerting).  
+- Authentification **SSO (Azure AD / MSAL)** intégrée, incluant la configuration du flux de connexion (redirect URI) et la sécurisation des communications API.  
+- Plus de **6 mois de pratique intensive avec Claude Code et Codex** — context engineering, harness engineering, conception d’agents et de workflows IA.  
 
-*Stack : Python · AWS (Lambda, ECS/Fargate, S3, SageMaker, EventBridge, Secrets Manager) · Terraform · Docker · GitLab CI · FastAPI · React · PostgreSQL · Anthropic Claude · OpenAI · Gemini*  
+*Stack : Python · AWS (Lambda, ECS/Fargate, S3, SageMaker, EventBridge, Secrets Manager) · Terraform · Docker · GitLab CI/CD · Dynatrace · Azure AD/MSAL · FastAPI · React · PostgreSQL · Anthropic Claude · Claude Code · Codex · OpenAI · Gemini*  
 
-**Développeur logiciel** – *Pro Meubles Inc., Granby*  
-*05/2024 – Présent*  
-- Développement d’un programme complet en C# basé sur l’architecture MVC, orienté objet, visant à automatiser l’analyse de fichiers utilisés dans le domaine manufacturier.  
-- Conception d’un outil intuitif permettant à des utilisateurs sans expertise en construction de facilement intégrer le programme dans leur processus de production.  
-- Mise en place d’une couche dédiée à la détection automatique d’erreurs dans les fichiers des machines de production, avec envoi d’alertes ciblées aux dessinateurs pour correction.  
-- Utilisation de la couche Controller pour orchestrer les interactions entre l’analyse des données et l’interface utilisateur, contribuant ainsi à l’accélération de la chaîne de production en éliminant les vérifications manuelles.  
+**Stagiaire en développement logiciel** – *Pro Meubles Inc. (Artopex), Granby*  
+*05/2024 – 08/2024*  
+- Automatisation complète du processus de mise en production des meubles, auparavant effectué manuellement et consommant énormément de temps.  
+- Conception d’un programme en **C#, orienté objet**, à l’aide de patrons de conception (**Singleton, Strategy, FileReader**) pour structurer une architecture **MVC** extensible.  
+- Implémentation d’une couche de détection d’erreurs automatisée, remplaçant une vérification manuelle sujette aux erreurs.  
+- Rédaction des tests unitaires de la solution.  
+
+**Développeur logiciel — temps partiel** – *Pro Meubles Inc. (Artopex), Granby*  
+*09/2024 – Présent*  
+- Maintien et support de l’application développée durant le stage.  
 
 ---
 
 ## Projets sélectionnés
 
-### Projets académiques (Architecture logicielle & Systèmes distribués)
-- Mise en place d’infrastructures avec **Docker, Git et CI/CD**.  
-- Développement d’applications client/serveur avec persistance **RDBMS et NoSQL**.  
-- Conception d’un monolithe avec **ORM et Domain-Driven Design (DDD)**.  
-- Création et consommation d’APIs **REST et GraphQL**.  
-- Expérimentation de la **résilience système** : Chaos Engineering, tolérance aux pannes.  
-- Tests de charge avancés et optimisation des performances dans des environnements distribués.  
+### Pipeline de traduction automatisée EN→FR — Loto-Québec
+**Tech utilisées :** Python, AWS (Lambda, ECS/Fargate, SageMaker, EventBridge), Terraform, LLM (sorties structurées), PDF parsing.  
+- Conception et livraison d’un pipeline de traduction automatisée des fiches de règles de jeux, remplaçant un processus externalisé et couvrant 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne).  
+- Extraction de la mise en page des documents PDF (texte, positions, blocs) pour préserver la structure d’origine lors de la traduction.  
+- Entraînement et intégration d’un modèle **YOLO fine-tuné sur AWS SageMaker** pour la détection et l’extraction automatique de logos dans des PDF complexes, avec pipeline de **ré-entraînement automatisé** déclenché par les nouvelles annotations.  
+- Traduction par **LLM avec sorties structurées** garantissant la cohérence terminologique et le respect du format des fiches.  
+- Orchestration événementielle via **AWS EventBridge** et déploiement du service de traduction sur **ECS Fargate**.  
+- Infrastructure entièrement définie en **Terraform** (IaC), avec pipeline CI/CD dédié.  
 
-### Application web – Réseau cyclable de Montréal - E2025
-**Tech utilisées :** Node.js & Express (**API RESTful**), MongoDB (requêtes filtrées/paginées), HTML/CSS/JavaScript (front), Leaflet/Mapbox (carto), Chart.js (graphiques), GitHub (issues/tags/CI).  
-- Conception et implémentation d’une **API RESTful** respectant les bonnes pratiques (routes nommées, statuts HTTP, gestion d’erreurs).  
-- **Migration des données CSV/GeoJSON** (compteurs, fontaines, pistes, territoires) vers **MongoDB**, avec filtres dynamiques (nom, type, arrondissement, date) exécutés côté base de données.  
-- Mise en place de la **pagination**, recherche textuelle et filtres combinés pour optimiser les réponses de l’API.  
-- Exposition de points d’intérêt et compteurs avec statistiques de fréquentation via l’API.  
-- Authentification (inscription/connexion) et **sécurisation avec JWT** pour les actions CRUD (ajout, modification, suppression).  
-- Déploiement de la frontale connectée à l’API pour afficher **cartes interactives, statistiques et filtres en temps réel**.  
-- Collaboration en équipe avec **GitHub** (issues, branches, commits structurés, tags de livraison).  
+### Application full-stack de tri de CV — Loto-Québec
+**Tech utilisées :** FastAPI, PostgreSQL, React 18, TypeScript, AWS Step Functions, Terraform, Claude, GPT, Gemini.  
+- Application entièrement **hébergée sur AWS**, avec traitement **asynchrone** orchestré par **AWS Step Functions** pour le pipeline d’analyse des candidatures.  
+- Backend **FastAPI** exposant une API REST consommée par un frontend **React 18/TypeScript**, avec persistance **PostgreSQL** des candidatures et des résultats de tri.  
+- Approche **LLM as judge** : évaluation et notation des candidatures par plusieurs **LLM (Claude, GPT, Gemini)** avec sorties structurées.  
+- Pondération transparente des critères de scoring, ajustable et auditable, pour classer les candidatures.  
+- Infrastructure définie en **Terraform** avec pipeline **CI/CD** de déploiement automatisé.  
+- Traitement de **300+ CV en moins de 5 minutes**, réduisant d’environ **70 %** le temps de tri manuel, avec une pertinence supérieure à 85 % par rapport au jugement RH.  
+- Garde-fous d’équité intégrés : validation humaine obligatoire avant toute décision, pondération transparente.  
 
-### Microservices & DevOps
-- Déploiement de **microservices sur Kubernetes** avec API Gateway.  
-- Implémentation de **patterns distribués** : Saga, CQRS, Event Sourcing, Pub/Sub.  
-- Optimisation avec **caching, tests de charge (lecture/écriture), monitoring et métriques**.  
-- Mise en place de mécanismes de **résilience** : Circuit Breaker, Service Mesh, observabilité avancée.
-
-### Pipeline temps réel – Données de transport - H2025
-- Conception d’un pipeline distribué avec **Apache Flink** pour traiter en temps réel des données GTFS-RT.  
-- Conversion des fichiers protobuf en JSON, extraction de la localisation des bus et stockage dans **Redis**.  
-- Détection des véhicules immobiles avec alertes diffusées en temps réel via **MQTT**.  
-- Développement d’une **API REST (Node.js)** permettant de requêter les positions et alertes.  
-- Déploiement complet **conteneurisé avec Docker**.  
-
-### IA – Tic-Tac-Toe géant - H2025
-- Développement d’un joueur artificiel compétitif pour une version avancée du jeu de Tic-Tac-Toe, composée de 9 plateaux locaux imbriqués dans un plateau global 3x3. 
-- Conception d’un moteur de jeu capable de respecter les règles complexes du plateau géant, incluant le routage des coups, la détection des plateaux fermés, et la gestion des priorités de déplacement.
-- Implémentation de l’algorithme Minimax et optimisation avec l’élagage alpha-bêta pour explorer efficacement l’arbre de décision sous contrainte de temps (≤ 3 secondes par coup).
-- Développement de fonctions d’évaluation heuristiques pour évaluer les plateaux locaux et globaux, et guider l’IA dans ses choix stratégiques.
-
-### Projet de développement d’un système intelligent avec le robot Cozmo
-- Conception progressive d’un système intelligent à travers trois laboratoires visant à explorer les fondements de l’intelligence artificielle appliquée à un robot physique.  
-- Implémentation manuelle d’algorithmes fondamentaux, puis comparaison avec des **librairies modernes en Python** pour comprendre les concepts de base de l’IA.  
-- Intégration de composantes intelligentes permettant à **Cozmo** d’interagir, percevoir, raisonner et communiquer avec son environnement.  
-- Exploration de modules variés : **reconnaissance faciale, navigation autonome, communication gestuelle et verbale, raisonnement par inférence, compréhension de langage simplifié**.  
-
-
-
-
+### BrokerX — plateforme de courtage en microservices événementielle (branche `event-driven`)
+**Tech utilisées :** ASP.NET Core (.NET 8), Kafka, Redis, Kong Gateway, React 19/TypeScript, Prometheus/Grafana, Kafdrop, Docker Compose.
+- Architecture en microservices .NET 8 (`identity-api`, `orders-api`, `wallets-api`, `market-data-api`) exposés via un **API Gateway Kong** (routage, CORS, authentification).  
+- `orders-api` : validation synchrone des ordres avec **pattern Outbox**, moteur de matching en tâche de fond, caches **Redis**, publication d’événements Kafka (`wallet-commands`, `execution-reports`, `order-placed-events`).  
+- `wallets-api` : gestion des soldes et du ledger, consommation asynchrone des commandes de portefeuille (`wallet-commands`) et publication des résultats (`wallet-command-results`).  
+- Implémentation d’une **saga chorégraphique** (sans orchestrateur central) coordonnant Orders ↔ Wallets par échange de messages Kafka.  
+- Diffusion temps réel des carnets d’ordres et mises à jour de marché via **SignalR** (`market-data-api`), alimentée par les événements Kafka.  
+- Authentification et gestion de compte (`identity-api`) : JWT, MFA par SMS (Twilio), vérification par courriel (SendGrid).  
+- Observabilité complète : **Prometheus** (métriques), **Grafana** (tableaux de bord), **Kafdrop** (inspection des topics Kafka), exporteurs Postgres/Redis.  
+- Documentation d’architecture professionnelle : registre de décisions d’architecture (**ADR**) et diagrammes **arc42**, modélisation **DDD**.  
 

@@ -41,14 +41,11 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 
 **Stagiaire en génie logiciel – Équipe IA (VP Numérique & IA)** – *Loto-Québec, Montréal*  
 *01/2026 – 08/2026 — 2 stages coopératifs consécutifs (STA206, STA306)*  
-- Conception et livraison d’un **pipeline de traduction automatisée EN→FR** des fiches de règles de jeux, remplaçant un processus externalisé; couvre 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne). Déployé sur **ECS Fargate**.  
-- Entraînement et intégration d’un modèle **YOLO fine-tuné sur AWS SageMaker** pour la détection et l’extraction de logos dans des PDF complexes, avec pipeline de **ré-entraînement automatisé** déclenché par les nouvelles annotations.  
-- Développement d’un **pipeline serverless (AWS Lambda, Python 3.13)** synchronisant quotidiennement les fiches de jeux depuis **SharePoint via Microsoft Graph API** : authentification MSAL, secrets dans Secrets Manager, file de rejet SQS, infrastructure **Terraform** complète.  
-- Réalisation d’une **application full-stack de tri de candidatures** (FastAPI, PostgreSQL, React 18, TypeScript) exploitant **Claude, GPT et Gemini** avec **Instructor** pour l’extraction structurée : 300+ CV traités en moins de 5 minutes, ~**70 % de réduction** du temps de tri manuel, pertinence >85 % par rapport au jugement RH.  
-- Intégration de garde-fous d’équité dans l’outil de tri : validation humaine obligatoire, pondération transparente, aucun accès direct aux données sensibles (SIGRH).  
-- Mise en place d’un **patron CI/CD 2-dépôts réutilisable** (GitLab CI en amont, Terraform Cloud en aval) avec images Docker multi-étapes et environnements sandbox auto-détruits après 7 jours, adopté comme référence pour les initiatives IA de l’équipe.  
-- Infrastructure déployée sur **AWS via Terraform** (IaC de bout en bout) avec **observabilité en production via Dynatrace** (monitoring, alerting).  
-- Authentification **SSO (Azure AD / MSAL)** intégrée, incluant la configuration du flux de connexion (redirect URI) et la sécurisation des communications API.  
+- Conception et livraison d’un **pipeline de traduction automatisée EN→FR** des fiches de règles de jeux, remplaçant un processus externalisé et couvrant 100 % des ~1 000 jeux certifiés annuellement (obligation légale avant mise en ligne) — détails dans *Projets sélectionnés*.  
+- Développement d’un **pipeline serverless (AWS Lambda, Python 3.13)** synchronisant quotidiennement les fiches de jeux depuis **SharePoint via Microsoft Graph API**, avec infrastructure **Terraform** complète.  
+- Réalisation d’une **application full-stack de tri de candidatures** exploitant plusieurs **LLM en approche LLM as judge**, réduisant d’environ **70 %** le temps de tri manuel — détails dans *Projets sélectionnés*.  
+- Mise en place d’un **patron CI/CD 2-dépôts réutilisable** (GitLab CI + Terraform Cloud) avec environnements sandbox éphémères, adopté comme référence pour les initiatives IA de l’équipe.  
+- Infrastructure **AWS via Terraform** avec **observabilité via Dynatrace** et **SSO (Azure AD / MSAL)** intégré.  
 - Plus de **6 mois de pratique intensive avec Claude Code et Codex** — context engineering, harness engineering, conception d’agents et de workflows IA.  
 
 *Stack : Python · AWS (Lambda, ECS/Fargate, S3, SageMaker, EventBridge, Secrets Manager) · Terraform · Docker · GitLab CI/CD · Dynatrace · Azure AD/MSAL · FastAPI · React · PostgreSQL · Anthropic Claude · Claude Code · Codex · OpenAI · Gemini*  
@@ -97,4 +94,13 @@ mikael.lapierre.1@ens.etsmtl.ca | 438-888-8272  | Bilingue
 - Authentification et gestion de compte (`identity-api`) : JWT, MFA par SMS (Twilio), vérification par courriel (SendGrid).  
 - Observabilité complète : **Prometheus** (métriques), **Grafana** (tableaux de bord), **Kafdrop** (inspection des topics Kafka), exporteurs Postgres/Redis.  
 - Documentation d’architecture professionnelle : registre de décisions d’architecture (**ADR**) et diagrammes **arc42**, modélisation **DDD**.  
+
+### Automatisation de la mise en production — Pro Meubles Inc. (Artopex)
+**Tech utilisées :** C#, .NET, WinForms, Design Patterns, MVC.  
+- Automatisation complète d’un processus de mise en production auparavant effectué manuellement et consommant énormément de temps, remplacé par une application desktop.  
+- Conception d’un programme **orienté objet** structuré en architecture **MVC**, avec une couche **Controller** orchestrant les interactions entre l’analyse des données et l’interface utilisateur.  
+- Utilisation de patrons de conception (**Singleton, Strategy, FileReader**) pour permettre le support extensible de plusieurs formats de fichiers d’entrée sans modifier la logique existante.  
+- Implémentation d’une couche de détection d’erreurs automatisée, remplaçant une vérification manuelle sujette aux erreurs et générant des alertes ciblées pour correction en amont.  
+- Conception d’une interface intuitive utilisable sans expertise technique, facilitant l’adoption par les équipes de production.  
+- Rédaction des tests unitaires de la solution et maintien continu de l’application en poste à temps partiel après le stage.  
 

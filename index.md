@@ -22,9 +22,10 @@ Membre de l'équipe eSports de l'ÉTS.
 ## Compétences
 
 - **Langages :** Python, C#, Java, TypeScript, C/C++  
-- **Web :** FastAPI, .NET, Node.js, React, REST  
+- **Web :** FastAPI, .NET, Node.js, React, REST, GraphQL  
 - **Bases de données :** PostgreSQL, MongoDB  
-- **Cloud :** AWS, Terraform, Docker, GitLab CI, GitHub Actions  
+- **AWS :** Lambda, ECS Fargate, S3, Step Functions, EventBridge, SageMaker, Secrets Manager  
+- **DevOps :** Terraform, Docker, Kubernetes, GitLab CI, GitHub Actions, Dynatrace  
 - **IA :** Claude, GPT, Gemini, Claude Code, Codex  
 
 ---
@@ -36,17 +37,17 @@ Membre de l'équipe eSports de l'ÉTS.
 
 **Stagiaire en génie logiciel, équipe IA** – *Loto-Québec, Montréal*  
 *01/2026 – 08/2026*  
-- Outil qui traduit les règles de jeux de l'anglais au français. Il couvre environ 1 000 jeux par année et remplace un service externe.  
+- Outil qui traduit les règles de jeux de l'anglais au français. Il garde la mise en page des PDF, couvre environ 1 000 jeux par année et remplace un service externe.  
 - Modèle YOLO entraîné sur SageMaker pour repérer les logos dans les PDF.  
-- Application qui trie les CV avec des LLM. Le temps de tri a baissé d'environ 70 %.  
-- Synchronisation quotidienne des fiches de jeux depuis SharePoint avec AWS Lambda.  
+- Application qui trie les CV avec des LLM (Step Functions, FastAPI, React). Plus de 300 CV en moins de 5 minutes, et environ 70 % moins de temps de tri.  
+- Système self-healing avec AWS DevOps Agent : il repère les erreurs (ex. HTTP 500) et crée les PR de correction automatiquement.  
 - Modèle CI/CD repris par l'équipe pour ses autres projets IA.  
 
 *Python, AWS, Terraform, FastAPI, React, PostgreSQL*
 
 **Développeur logiciel (stage, puis temps partiel)** – *Pro Meubles Inc. (Artopex), Granby*  
 *05/2024 – présent*  
-- Application C# qui automatise la mise en production des meubles. Avant, tout se faisait à la main.  
+- Application C# (MVC) qui automatise la mise en production des meubles. Avant, tout se faisait à la main.  
 - Détection automatique des erreurs dans les fichiers de production.  
 - Tests unitaires et maintenance de l'application.  
 

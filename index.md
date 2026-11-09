@@ -31,6 +31,9 @@ Membre de l'équipe eSports de l'ÉTS.
 
 ## Expérience
 
+**Développeur IA** – *Loto-Québec, Montréal*  
+*08/2026 – présent*  
+
 **Stagiaire en génie logiciel, équipe IA** – *Loto-Québec, Montréal*  
 *01/2026 – 08/2026*  
 - Outil qui traduit les règles de jeux de l'anglais au français. Il couvre environ 1 000 jeux par année et remplace un service externe.  
